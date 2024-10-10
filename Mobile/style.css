@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #001660;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 6vw 8vw; /* Significantly increased padding for a larger form */
+    width: 100%; 
+    max-width: 1000px; /* Increased max width for a much bigger form */
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow for emphasis */
+}
+
+form h3 {
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 40px; /* Increased bottom margin */
+    font-size: 34px; /* Larger font size for the title */
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 20px 0; /* Increased margin for more spacing */
+    padding: 30px; /* Larger padding for a more spacious input field */
+    outline: none;
+    background: #f5f5f5;
+    font-size: 22px; /* Increased font size for better readability */
+    border-radius: 10px;
+}
+
+form button {
+    padding: 25px; /* Larger padding for a bigger button */
+    background: #ff5361;
+    color: #fff;
+    font-size: 22px; /* Slightly increased font size */
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 500px; /* Increased button width */
+    margin: 40px auto 0; /* More space above the button */
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #ff2a3d; /* Darker shade on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    form {
+        max-width: 90%; /* Scale down form width on smaller screens */
+        padding: 4vw 6vw;
+    }
+
+    form button {
+        width: 100%; /* Make button full-width for smaller screens */
+    }
+}
