@@ -262,14 +262,6 @@ function buynoww28(){
     var amount=s.innerText;
     document.getElementById("proamount").value = "Product Amount: "+amount;
 }
-function buynoww29(){
-    var t= document.getElementById("itemname29");
-    var name=t.innerText;
-    document.getElementById("proname").value = "Product Name: "+name;
-    var s= document.getElementById("itemamount29");
-    var amount=s.innerText;
-    document.getElementById("proamount").value = "Product Amount: "+amount;
-}
 function buynoww30(){
     var t= document.getElementById("itemname30");
     var name=t.innerText;
