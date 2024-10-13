@@ -126,14 +126,6 @@ function buynoww13(){
     document.getElementById("proamount").value = "Product Amount: "+amount;
 }
 
-function buynoww14(){
-    var t= document.getElementById("itemname14");
-    var name=t.innerText;
-    document.getElementById("proname").value = "Product Name: "+name;
-    var s= document.getElementById("itemamount14");
-    var amount=s.innerText;
-    document.getElementById("proamount").value = "Product Amount: "+amount;
-}
 function buynoww15(){
     var t= document.getElementById("itemname15");
     var name=t.innerText;
@@ -147,14 +139,6 @@ function buynoww16(){
     var name=t.innerText;
     document.getElementById("proname").value = "Product Name: "+name;
     var s= document.getElementById("itemamount16");
-    var amount=s.innerText;
-    document.getElementById("proamount").value = "Product Amount: "+amount;
-}
-function buynoww17(){
-    var t= document.getElementById("itemname17");
-    var name=t.innerText;
-    document.getElementById("proname").value = "Product Name: "+name;
-    var s= document.getElementById("itemamount17");
     var amount=s.innerText;
     document.getElementById("proamount").value = "Product Amount: "+amount;
 }
@@ -174,35 +158,11 @@ function buynoww19(){
     var amount=s.innerText;
     document.getElementById("proamount").value = "Product Amount: "+amount;
 }
-function buynoww20(){
-    var t= document.getElementById("itemname20");
-    var name=t.innerText;
-    document.getElementById("proname").value = "Product Name: "+name;
-    var s= document.getElementById("itemamount20");
-    var amount=s.innerText;
-    document.getElementById("proamount").value = "Product Amount: "+amount;
-}
-function buynoww20(){
-    var t= document.getElementById("itemname20");
-    var name=t.innerText;
-    document.getElementById("proname").value = "Product Name: "+name;
-    var s= document.getElementById("itemamount20");
-    var amount=s.innerText;
-    document.getElementById("proamount").value = "Product Amount: "+amount;
-}
 function buynoww21(){
     var t= document.getElementById("itemname21");
     var name=t.innerText;
     document.getElementById("proname").value = "Product Name: "+name;
     var s= document.getElementById("itemamount21");
-    var amount=s.innerText;
-    document.getElementById("proamount").value = "Product Amount: "+amount;
-}
-function buynoww22(){
-    var t= document.getElementById("itemname22");
-    var name=t.innerText;
-    document.getElementById("proname").value = "Product Name: "+name;
-    var s= document.getElementById("itemamount22");
     var amount=s.innerText;
     document.getElementById("proamount").value = "Product Amount: "+amount;
 }
@@ -227,14 +187,6 @@ function buynoww26(){
     var name=t.innerText;
     document.getElementById("proname").value = "Product Name: "+name;
     var s= document.getElementById("itemamount26");
-    var amount=s.innerText;
-    document.getElementById("proamount").value = "Product Amount: "+amount;
-}
-function buynoww27(){
-    var t= document.getElementById("itemname27");
-    var name=t.innerText;
-    document.getElementById("proname").value = "Product Name: "+name;
-    var s= document.getElementById("itemamount27");
     var amount=s.innerText;
     document.getElementById("proamount").value = "Product Amount: "+amount;
 }
